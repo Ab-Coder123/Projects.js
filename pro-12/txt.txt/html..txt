@@ -1,0 +1,21 @@
+
+
+
+    <section class="scroll-X">
+      <div class="head">
+        <h1>Scroll-X</h1>
+      </div>
+      <div class="wrapper">
+
+        <div class="carousel">
+          <img src="./images/featured1.png" alt="img" draggable="false">
+          <img src="./images/featured2.png" alt="img" draggable="false">
+          <img src="./images/featured3.png" alt="img" draggable="false">
+          <img src="./images/featured4.png" alt="img" draggable="false">
+          <img src="./images/featured5.png" alt="img" draggable="false">
+          <img src="./images/popular1.png" alt="img" draggable="false">
+        </div>
+
+      </div>
+  
+    </section>

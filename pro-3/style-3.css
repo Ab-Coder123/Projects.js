@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: aliceblue;
+
+}
+
+
+.header {
+  padding-top: 1rem;
+  padding-bottom:5px;
+  margin: auto 38%  ;
+  overflow: hidden;
+}
+
+
+.header h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-style: oblique;
+}
+.header span {
+  color: rgb(4, 180, 180);
+}
+
+.main-content {
+  position: relative;
+  padding: 3rem 2rem;
+  margin: auto 24%  ;
+  overflow: hidden;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+  position: relative;
+  width: 40em;
+  height: 30em;
+  background: #171717;
+  transition: 1s ease-in-out;
+  clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-top: -2rem;
+}
+.card .card-cont {
+  padding-top: 20px;
+}
+.card .img {
+  width: 10em;
+  height: 10em;
+  background: white;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.img img {
+  width: 95%;
+  height:95%;
+  border-radius:50%;
+  margin-top: 5px;
+}
+.card span {
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: block;
+  font-size: 1em;
+}
+
+.card .info {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 1.1em;
+  margin: 0.5em 1em;
+}
+
+
+.card .share {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.card a {
+  font-size: 30px;
+  color: white;
+  transition: .4s ease-in-out;
+}
+
+.card a:hover {
+  color: rgb(3, 154, 173);
+  transform: scale(1.1) translateY(-5px);
+}
+
+.card ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 23px;
+}
+
+
+.card ul li {
+  margin: 5px;
+  display: block;
+  font-weight: bold;
+  cursor: pointer;
+}
+.card ul li>i {
+  margin-right: 5px;
+  color: rgb(204, 204, 204);
+  transition: 0.5s;
+}
+
+.card ul li>i:hover {
+  transform: translateY(-5px);
+  color: rgb(3, 154, 173);
+
+}
+
+
+.card button {
+  padding: 0.8em 1.5em;
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: .4s ease-in-out;
+}
+
+.card button:hover {
+  background: rgb(3, 154, 173);
+  color: white;
+  cursor: pointer;
+}
